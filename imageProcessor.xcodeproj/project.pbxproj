@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80697F73208A71BA00C68442 /* ImagesViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80697F72208A71BA00C68442 /* ImagesViewerViewController.swift */; };
+		80697F7C208A74E200C68442 /* Machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80697F7B208A74E200C68442 /* Machine.swift */; };
+		80697F7E208A754600C68442 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80697F7D208A754600C68442 /* Image.swift */; };
 		807304C9208783860084D491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807304C8208783860084D491 /* AppDelegate.swift */; };
 		807304CB208783860084D491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807304CA208783860084D491 /* ViewController.swift */; };
 		807304CE208783860084D491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807304CC208783860084D491 /* Main.storyboard */; };
@@ -15,6 +18,29 @@
 		807304D62087838B0084D491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807304D42087838B0084D491 /* LaunchScreen.storyboard */; };
 		807304E12087838B0084D491 /* imageProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807304E02087838B0084D491 /* imageProcessorTests.swift */; };
 		807304EC2087838B0084D491 /* imageProcessorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807304EB2087838B0084D491 /* imageProcessorUITests.swift */; };
+		807304FA208783DA0084D491 /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807304F9208783DA0084D491 /* CameraHandler.swift */; };
+		807304FC208785630084D491 /* Port.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807304FB208785630084D491 /* Port.swift */; };
+		8073052620878A1F0084D491 /* MyTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80730513208789B40084D491 /* MyTarget.framework */; };
+		8073052720878A1F0084D491 /* MyTarget.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80730513208789B40084D491 /* MyTarget.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8073052B20878A240084D491 /* MongoKitten.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80730515208789B40084D491 /* MongoKitten.framework */; };
+		8073052C20878A240084D491 /* MongoKitten.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80730515208789B40084D491 /* MongoKitten.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8073052F20878A280084D491 /* MongoSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80730517208789B40084D491 /* MongoSocket.framework */; };
+		8073053020878A280084D491 /* MongoSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80730517208789B40084D491 /* MongoSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8073053320878A2C0084D491 /* GeoJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80730519208789B40084D491 /* GeoJSON.framework */; };
+		8073053420878A2C0084D491 /* GeoJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80730519208789B40084D491 /* GeoJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8073053720878A300084D491 /* ExtendedJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8073051B208789B40084D491 /* ExtendedJSON.framework */; };
+		8073053820878A300084D491 /* ExtendedJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8073051B208789B40084D491 /* ExtendedJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8073053B20878A340084D491 /* Schrodinger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8073051D208789B40084D491 /* Schrodinger.framework */; };
+		8073053C20878A340084D491 /* Schrodinger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8073051D208789B40084D491 /* Schrodinger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8073053F20878A380084D491 /* CryptoKitten.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8073051F208789B40084D491 /* CryptoKitten.framework */; };
+		8073054020878A380084D491 /* CryptoKitten.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8073051F208789B40084D491 /* CryptoKitten.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8073054320878A3B0084D491 /* Cheetah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80730521208789B40084D491 /* Cheetah.framework */; };
+		8073054420878A3C0084D491 /* Cheetah.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80730521208789B40084D491 /* Cheetah.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8073054720878A400084D491 /* BSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80730523208789B40084D491 /* BSON.framework */; };
+		8073054820878A400084D491 /* BSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80730523208789B40084D491 /* BSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8073054D20879DC90084D491 /* TextPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8073054C20879DC80084D491 /* TextPopUpViewController.swift */; };
+		807305632087C72F0084D491 /* ImageEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807305622087C72F0084D491 /* ImageEditorViewController.swift */; };
+		807B0929208E13A10095C29C /* TextEntryPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B0928208E13A10095C29C /* TextEntryPopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +58,167 @@
 			remoteGlobalIDString = 807304C4208783860084D491;
 			remoteInfo = imageProcessor;
 		};
+		80730510208789B40084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "MKFrame::MKFrame::Product";
+			remoteInfo = MKFrame;
+		};
+		80730512208789B40084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "MKFrame::MyTarget::Product";
+			remoteInfo = MyTarget;
+		};
+		80730514208789B40084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "MongoKitten::MongoKitten::Product";
+			remoteInfo = MongoKitten;
+		};
+		80730516208789B40084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "MongoKitten::MongoSocket::Product";
+			remoteInfo = MongoSocket;
+		};
+		80730518208789B40084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "MongoKitten::GeoJSON::Product";
+			remoteInfo = GeoJSON;
+		};
+		8073051A208789B40084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "MongoKitten::ExtendedJSON::Product";
+			remoteInfo = ExtendedJSON;
+		};
+		8073051C208789B40084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Schrodinger::Schrodinger::Product";
+			remoteInfo = Schrodinger;
+		};
+		8073051E208789B40084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "CryptoKitten::CryptoKitten::Product";
+			remoteInfo = CryptoKitten;
+		};
+		80730520208789B40084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Cheetah::Cheetah::Product";
+			remoteInfo = Cheetah;
+		};
+		80730522208789B40084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "BSON::BSON::Product";
+			remoteInfo = BSON;
+		};
+		8073052820878A1F0084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "MKFrame::MyTarget";
+			remoteInfo = MyTarget;
+		};
+		8073052D20878A240084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "MongoKitten::MongoKitten";
+			remoteInfo = MongoKitten;
+		};
+		8073053120878A280084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "MongoKitten::MongoSocket";
+			remoteInfo = MongoSocket;
+		};
+		8073053520878A2C0084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "MongoKitten::GeoJSON";
+			remoteInfo = GeoJSON;
+		};
+		8073053920878A300084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "MongoKitten::ExtendedJSON";
+			remoteInfo = ExtendedJSON;
+		};
+		8073053D20878A340084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "Schrodinger::Schrodinger";
+			remoteInfo = Schrodinger;
+		};
+		8073054120878A380084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "CryptoKitten::CryptoKitten";
+			remoteInfo = CryptoKitten;
+		};
+		8073054520878A3C0084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "Cheetah::Cheetah";
+			remoteInfo = Cheetah;
+		};
+		8073054920878A400084D491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "BSON::BSON";
+			remoteInfo = BSON;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8073052A20878A1F0084D491 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8073052C20878A240084D491 /* MongoKitten.framework in Embed Frameworks */,
+				8073054020878A380084D491 /* CryptoKitten.framework in Embed Frameworks */,
+				8073053820878A300084D491 /* ExtendedJSON.framework in Embed Frameworks */,
+				8073052720878A1F0084D491 /* MyTarget.framework in Embed Frameworks */,
+				8073053C20878A340084D491 /* Schrodinger.framework in Embed Frameworks */,
+				8073053420878A2C0084D491 /* GeoJSON.framework in Embed Frameworks */,
+				8073053020878A280084D491 /* MongoSocket.framework in Embed Frameworks */,
+				8073054420878A3C0084D491 /* Cheetah.framework in Embed Frameworks */,
+				8073054820878A400084D491 /* BSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		80697F72208A71BA00C68442 /* ImagesViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewerViewController.swift; sourceTree = "<group>"; };
+		80697F7B208A74E200C68442 /* Machine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine.swift; sourceTree = "<group>"; };
+		80697F7D208A754600C68442 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		807304C5208783860084D491 /* imageProcessor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageProcessor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		807304C8208783860084D491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		807304CA208783860084D491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +233,12 @@
 		807304E72087838B0084D491 /* imageProcessorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageProcessorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		807304EB2087838B0084D491 /* imageProcessorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageProcessorUITests.swift; sourceTree = "<group>"; };
 		807304ED2087838B0084D491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807304F9208783DA0084D491 /* CameraHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHandler.swift; sourceTree = "<group>"; };
+		807304FB208785630084D491 /* Port.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Port.swift; sourceTree = "<group>"; };
+		807304FD208789B30084D491 /* MKFrame.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MKFrame.xcodeproj; path = MKFrame/MKFrame.xcodeproj; sourceTree = "<group>"; };
+		8073054C20879DC80084D491 /* TextPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPopUpViewController.swift; sourceTree = "<group>"; };
+		807305622087C72F0084D491 /* ImageEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorViewController.swift; sourceTree = "<group>"; };
+		807B0928208E13A10095C29C /* TextEntryPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntryPopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +246,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8073052B20878A240084D491 /* MongoKitten.framework in Frameworks */,
+				8073053F20878A380084D491 /* CryptoKitten.framework in Frameworks */,
+				8073053720878A300084D491 /* ExtendedJSON.framework in Frameworks */,
+				8073052620878A1F0084D491 /* MyTarget.framework in Frameworks */,
+				8073053B20878A340084D491 /* Schrodinger.framework in Frameworks */,
+				8073053320878A2C0084D491 /* GeoJSON.framework in Frameworks */,
+				8073052F20878A280084D491 /* MongoSocket.framework in Frameworks */,
+				8073054320878A3B0084D491 /* Cheetah.framework in Frameworks */,
+				8073054720878A400084D491 /* BSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +278,12 @@
 		807304BC208783860084D491 = {
 			isa = PBXGroup;
 			children = (
+				807304FD208789B30084D491 /* MKFrame.xcodeproj */,
 				807304C7208783860084D491 /* imageProcessor */,
 				807304DF2087838B0084D491 /* imageProcessorTests */,
 				807304EA2087838B0084D491 /* imageProcessorUITests */,
 				807304C6208783860084D491 /* Products */,
+				80730524208789FE0084D491 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +300,17 @@
 		807304C7208783860084D491 /* imageProcessor */ = {
 			isa = PBXGroup;
 			children = (
+				807304F9208783DA0084D491 /* CameraHandler.swift */,
 				807304C8208783860084D491 /* AppDelegate.swift */,
 				807304CA208783860084D491 /* ViewController.swift */,
 				807304CC208783860084D491 /* Main.storyboard */,
+				807B0928208E13A10095C29C /* TextEntryPopUpViewController.swift */,
+				807305622087C72F0084D491 /* ImageEditorViewController.swift */,
+				8073054C20879DC80084D491 /* TextPopUpViewController.swift */,
+				807304FB208785630084D491 /* Port.swift */,
+				80697F72208A71BA00C68442 /* ImagesViewerViewController.swift */,
+				80697F7B208A74E200C68442 /* Machine.swift */,
+				80697F7D208A754600C68442 /* Image.swift */,
 				807304D22087838B0084D491 /* Assets.xcassets */,
 				807304D42087838B0084D491 /* LaunchScreen.storyboard */,
 				807304D72087838B0084D491 /* Info.plist */,
@@ -128,6 +337,30 @@
 			path = imageProcessorUITests;
 			sourceTree = "<group>";
 		};
+		807304FE208789B30084D491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80730511208789B40084D491 /* MKFrame */,
+				80730513208789B40084D491 /* MyTarget.framework */,
+				80730515208789B40084D491 /* MongoKitten.framework */,
+				80730517208789B40084D491 /* MongoSocket.framework */,
+				80730519208789B40084D491 /* GeoJSON.framework */,
+				8073051B208789B40084D491 /* ExtendedJSON.framework */,
+				8073051D208789B40084D491 /* Schrodinger.framework */,
+				8073051F208789B40084D491 /* CryptoKitten.framework */,
+				80730521208789B40084D491 /* Cheetah.framework */,
+				80730523208789B40084D491 /* BSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80730524208789FE0084D491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +371,20 @@
 				807304C1208783860084D491 /* Sources */,
 				807304C2208783860084D491 /* Frameworks */,
 				807304C3208783860084D491 /* Resources */,
+				8073052A20878A1F0084D491 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8073052920878A1F0084D491 /* PBXTargetDependency */,
+				8073052E20878A240084D491 /* PBXTargetDependency */,
+				8073053220878A280084D491 /* PBXTargetDependency */,
+				8073053620878A2C0084D491 /* PBXTargetDependency */,
+				8073053A20878A300084D491 /* PBXTargetDependency */,
+				8073053E20878A340084D491 /* PBXTargetDependency */,
+				8073054220878A380084D491 /* PBXTargetDependency */,
+				8073054620878A3C0084D491 /* PBXTargetDependency */,
+				8073054A20878A400084D491 /* PBXTargetDependency */,
 			);
 			name = imageProcessor;
 			productName = imageProcessor;
@@ -218,6 +461,12 @@
 			mainGroup = 807304BC208783860084D491;
 			productRefGroup = 807304C6208783860084D491 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 807304FE208789B30084D491 /* Products */;
+					ProjectRef = 807304FD208789B30084D491 /* MKFrame.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				807304C4208783860084D491 /* imageProcessor */,
@@ -226,6 +475,79 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		80730511208789B40084D491 /* MKFrame */ = {
+			isa = PBXReferenceProxy;
+			fileType = text;
+			path = MKFrame;
+			remoteRef = 80730510208789B40084D491 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80730513208789B40084D491 /* MyTarget.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MyTarget.framework;
+			remoteRef = 80730512208789B40084D491 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80730515208789B40084D491 /* MongoKitten.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MongoKitten.framework;
+			remoteRef = 80730514208789B40084D491 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80730517208789B40084D491 /* MongoSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MongoSocket.framework;
+			remoteRef = 80730516208789B40084D491 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80730519208789B40084D491 /* GeoJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GeoJSON.framework;
+			remoteRef = 80730518208789B40084D491 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8073051B208789B40084D491 /* ExtendedJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ExtendedJSON.framework;
+			remoteRef = 8073051A208789B40084D491 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8073051D208789B40084D491 /* Schrodinger.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Schrodinger.framework;
+			remoteRef = 8073051C208789B40084D491 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8073051F208789B40084D491 /* CryptoKitten.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoKitten.framework;
+			remoteRef = 8073051E208789B40084D491 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80730521208789B40084D491 /* Cheetah.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cheetah.framework;
+			remoteRef = 80730520208789B40084D491 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80730523208789B40084D491 /* BSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BSON.framework;
+			remoteRef = 80730522208789B40084D491 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		807304C3208783860084D491 /* Resources */ = {
@@ -260,8 +582,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				807304D1208783860084D491 /* imageProcessor.xcdatamodeld in Sources */,
+				807304FA208783DA0084D491 /* CameraHandler.swift in Sources */,
+				8073054D20879DC90084D491 /* TextPopUpViewController.swift in Sources */,
+				807305632087C72F0084D491 /* ImageEditorViewController.swift in Sources */,
+				807B0929208E13A10095C29C /* TextEntryPopUpViewController.swift in Sources */,
+				80697F73208A71BA00C68442 /* ImagesViewerViewController.swift in Sources */,
 				807304CB208783860084D491 /* ViewController.swift in Sources */,
 				807304C9208783860084D491 /* AppDelegate.swift in Sources */,
+				807304FC208785630084D491 /* Port.swift in Sources */,
+				80697F7C208A74E200C68442 /* Machine.swift in Sources */,
+				80697F7E208A754600C68442 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +623,51 @@
 			isa = PBXTargetDependency;
 			target = 807304C4208783860084D491 /* imageProcessor */;
 			targetProxy = 807304E82087838B0084D491 /* PBXContainerItemProxy */;
+		};
+		8073052920878A1F0084D491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyTarget;
+			targetProxy = 8073052820878A1F0084D491 /* PBXContainerItemProxy */;
+		};
+		8073052E20878A240084D491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MongoKitten;
+			targetProxy = 8073052D20878A240084D491 /* PBXContainerItemProxy */;
+		};
+		8073053220878A280084D491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MongoSocket;
+			targetProxy = 8073053120878A280084D491 /* PBXContainerItemProxy */;
+		};
+		8073053620878A2C0084D491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GeoJSON;
+			targetProxy = 8073053520878A2C0084D491 /* PBXContainerItemProxy */;
+		};
+		8073053A20878A300084D491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExtendedJSON;
+			targetProxy = 8073053920878A300084D491 /* PBXContainerItemProxy */;
+		};
+		8073053E20878A340084D491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Schrodinger;
+			targetProxy = 8073053D20878A340084D491 /* PBXContainerItemProxy */;
+		};
+		8073054220878A380084D491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoKitten;
+			targetProxy = 8073054120878A380084D491 /* PBXContainerItemProxy */;
+		};
+		8073054620878A3C0084D491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cheetah;
+			targetProxy = 8073054520878A3C0084D491 /* PBXContainerItemProxy */;
+		};
+		8073054A20878A400084D491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSON;
+			targetProxy = 8073054920878A400084D491 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -433,7 +808,8 @@
 		807304F12087838B0084D491 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6J5C75T2R8;
 				INFOPLIST_FILE = imageProcessor/Info.plist;
@@ -451,7 +827,8 @@
 		807304F22087838B0084D491 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6J5C75T2R8;
 				INFOPLIST_FILE = imageProcessor/Info.plist;
